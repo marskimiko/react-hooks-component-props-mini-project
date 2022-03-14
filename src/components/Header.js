@@ -1,10 +1,10 @@
 import React from "react";
 
-function Header(props) {
+function Header({name}) {
   return (
-    <>
-      <h1>{props.name}</h1>
-    </>
+    <header>
+      <h1>{name}</h1>
+    </header> 
   )
 }
 
